@@ -1,0 +1,159 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  display: grid;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav {
+    background: #40464a;
+    margin: 0;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color:whitesmoke;
+    background-color: #40464a;
+    border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th,
+td {
+  border: 1px black solid;
+  padding: 8px;
+}
+
+img {
+  width: 100px;
+}
+
+.about-img img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.tambah, .hapus, .ubah{
+  text-decoration: none;
+  background-color:#40464a;
+  margin: 3px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+a:hover {
+  background-color: whitesmoke;
+  transform: scale(0.98);
+  color: black;
+}
+
+nav a:hover {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5 50px;
+    color: #D3D3D3;
+}
+
+h1 {
+    background:  #40464a;
+    margin-bottom: 0;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.modular-list, .modular{
+  text-align: left;
+}
+
+.about-image img {
+  width: 100px;
+  height: 150px;
+  border-radius: 200%;
+}
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form h2, p{
+  text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #B0C4DE;;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+ul.pagiation li {display: inline;}
+
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+  background-color: #428bca;
+  color: white;
+}
+
+ul.pagination li a.hover:not(.active) {
+  background-color: #ddd;
+}
